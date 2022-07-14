@@ -1,3 +1,8 @@
+# Emmanuel Cruz Hernández
+## Tienda de guitarras en Next.js
+
+----
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -32,3 +37,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+----
+
+## Routing en Next
+
+Next.js tiene implementado un sistema para creación de Routings cuando se crea una página. Basta con agregar el nombre del archivo después de la ruta donde está definido. 
+
+----
+
+## Sobre el servidor
+
+La información de las guitarras se almacena en el servidor de Strapi, con la configuración contenida en el directorio `tienda-guitarras`.
+
+Comando para correr el servidor
+
+    npm run develop
