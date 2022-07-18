@@ -23,6 +23,11 @@ const Header = ({ guitarra }) => {
             <Link href="/nosotros">Nosotros</Link>
             <Link href="/blog">Blog</Link>
             <Link href="/tienda">Tienda</Link>
+            <Link href="/carrito">
+              <a>
+                <Image src="/img/carrito.png" width={25} height={18} layout='fixed' alt='Imagen carrito' />
+              </a>
+            </Link>
           </nav>
         </div>
 
